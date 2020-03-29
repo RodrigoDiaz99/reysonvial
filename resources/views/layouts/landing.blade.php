@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
+  <link href="css/agency.min.css" rel="stylesheet">
 
   <title>Reyson Vial</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="/css/agency.min.css" rel="stylesheet">
+  <link href="{{ asset('css/agency.min.css') }}" rel="stylesheet">
 
 </head>
 
@@ -123,7 +124,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/01-thumbnail_sjyatk.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Threads</h4>
@@ -137,7 +138,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/02-thumbnail_dni4v9.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Explore</h4>
@@ -151,7 +152,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/03-thumbnail_txxxge.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Finish</h4>
@@ -165,7 +166,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/04-thumbnail_k36o93.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Lines</h4>
@@ -179,7 +180,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/portfolio/05-thumbnail_qgeklg.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Southwest</h4>
@@ -193,7 +194,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/portfolio/06-thumbnail_qep8xe.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Window</h4>
@@ -218,7 +219,7 @@
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/about/1_xd03uq.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -232,7 +233,7 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/about/2_v65qr2.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -246,7 +247,7 @@
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451129/about/3_g7uvzi.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -260,7 +261,7 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451129/about/4_lmnxsz.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -696,18 +697,18 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ asset('js/jquery.min.js') }}"></script>
+  <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="{{ asset('jquery-easing/jquery.easing.min.js') }}"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js') }}"></script>
-  <script src="js/contact_me.js') }}"></script>
+  <script src="{{ asset('js/jqBootstrapValidation.js') }}"></script>
+  <script src="{{ asset('js/contact_me.js') }}"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
+  <script src="{{ asset('js/agency.min.js') }}"></script>
 
 </body>
 
