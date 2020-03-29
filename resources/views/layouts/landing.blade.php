@@ -53,6 +53,17 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
+          <li class="nav-item">
+          @if (Route::has('login'))
+                    <div class="flex-center position-ref full-height">
+                        @auth
+                        <a class="nav-link js-scroll-trigger" href="{{ url('/home') }}"></a>
+                        @else
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('login') }}">Acceso</a></li>
+                        @endauth
+                    </div>
+                    @endif
+                </li>
         </ul>
       </div>
     </div>
