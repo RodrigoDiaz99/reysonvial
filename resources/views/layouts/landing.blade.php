@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Reyson Vial</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -39,19 +39,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a class="nav-link js-scroll-trigger" href="#team">Equipo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -62,8 +62,8 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+        <div class="intro-lead-in">Bienvenido a!</div>
+        <div class="intro-heading text-uppercase">Reyson Vial</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
     </div>
@@ -74,7 +74,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
+          <h2 class="section-heading text-uppercase">Servicios</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -84,7 +84,7 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
+          <h4 class="service-heading">App Movil</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
@@ -92,7 +92,7 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Responsive Design</h4>
+          <h4 class="service-heading">Pendiente</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
@@ -100,7 +100,7 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Security</h4>
+          <h4 class="service-heading">Pendiente</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
       </div>
@@ -112,7 +112,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
+          <h2 class="section-heading text-uppercase">Portafolio</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -128,7 +128,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
+            <p class="text-muted">Illustraciones/p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -142,7 +142,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+            <p class="text-muted">Diseño grafico</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -184,7 +184,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
+            <p class="text-muted">Diseño Website</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -198,7 +198,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Window</h4>
-            <p class="text-muted">Photography</p>
+            <p class="text-muted">Fotografia</p>
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
+          <h2 class="section-heading text-uppercase">Sobre</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -223,7 +223,7 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2009-2011</h4>
+                  <h4>2019-2020</h4>
                   <h4 class="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div class="timeline-body">
@@ -275,9 +275,9 @@
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
+                <h4>Se parte
+                  <br>de nuestra
+                  <br>Historia!</h4>
               </div>
             </li>
           </ul>
@@ -291,14 +291,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+          <h2 class="section-heading text-uppercase">Nuestro increible equipo</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/team/1_f1ldys.jpg" alt="">
             <h4>Kay Garland</h4>
             <p class="text-muted">Lead Designer</p>
             <ul class="list-inline social-buttons">
@@ -322,7 +322,7 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/team/2_wisd2j.jpg" alt="">
             <h4>Larry Parker</h4>
             <p class="text-muted">Lead Marketer</p>
             <ul class="list-inline social-buttons">
@@ -346,7 +346,7 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/team/3_dnnxh7.jpg" alt="">
             <h4>Diana Pertersen</h4>
             <p class="text-muted">Lead Developer</p>
             <ul class="list-inline social-buttons">
@@ -383,22 +383,22 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+            <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/logos/envato_aksyiz.jpg" alt="">
           </a>
         </div>
         <div class="col-md-3 col-sm-6">
           <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+            <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451126/logos/designmodo_ukozti.jpg" alt="">
           </a>
         </div>
         <div class="col-md-3 col-sm-6">
           <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+            <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/logos/themeforest_pjp3mb.jpg" alt="">
           </a>
         </div>
         <div class="col-md-3 col-sm-6">
           <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+            <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451126/logos/creative-market_lny0ur.jpg" alt="">
           </a>
         </div>
       </div>
@@ -410,7 +410,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
+          <h2 class="section-heading text-uppercase">Contactanos</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -455,7 +455,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; ReyonVial 2020</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
@@ -479,10 +479,10 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <a href="#">Politicas de Privacidad</a>
             </li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <a href="#">Terminos de Uso</a>
             </li>
           </ul>
         </div>
@@ -508,7 +508,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/01-full_ypxu1x.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -542,7 +542,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/02-full_rckjxm.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -576,7 +576,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/03-full_chqwit.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -610,7 +610,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451127/portfolio/04-full_cxwuv0.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -644,7 +644,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/portfolio/05-full_qgm2tt.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -678,7 +678,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1585451128/portfolio/06-full_fuuijg.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
