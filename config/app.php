@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'ReysonVial'),
+    'name' => env('APP_NAME', 'Carmen Andrea Reyes Reyes - Consultorio'),
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', true),
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -121,9 +121,7 @@ return [
 
     'key' => env('APP_KEY'),
 
-    #'cipher' => 'AES-256-CBC',
-    'cipher' => 'AES-128-CBC',
-
+    'cipher' => 'AES-256-CBC',
 
     /*
     |--------------------------------------------------------------------------
