@@ -207,7 +207,7 @@
     </div>
   </section>-->
 
-  <!-- About -->
+  <!-- About
   <section class="bg-light page-section" id="about">
     <div class="container">
       <div class="row">
@@ -286,10 +286,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- Team -->
-  <section class=" page-section" id="team">
+  <section class="bg-light page-section" id="team">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
