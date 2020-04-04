@@ -300,7 +300,7 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1586040778/descarga_slj9rq.png" alt="">
             <h4>Carlos Dorantes</h4>
             <p class="text-muted">Recursos Humanos</p>
             <ul class="list-inline social-buttons">
@@ -324,7 +324,7 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1586040778/descarga_slj9rq.png" alt="">
             <h4>Juan Sonda</h4>
             <p class="text-muted">Lead Marketer</p>
             <ul class="list-inline social-buttons">
@@ -348,7 +348,7 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1586040778/descarga_slj9rq.png" alt="">
             <h4>Rodrigo Diaz</h4>
             <p class="text-muted">Produccion</p>
             <ul class="list-inline social-buttons">
@@ -372,7 +372,7 @@
         </div>
         <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1586040778/descarga_slj9rq.png" alt="">
               <h4>Guillermo Castillo</h4>
               <p class="text-muted">Finanzas</p>
               <ul class="list-inline social-buttons">
@@ -396,7 +396,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1586040778/descarga_slj9rq.png" alt="">
               <h4>Yehisher Salazar</h4>
               <p class="text-muted">Administracion</p>
               <ul class="list-inline social-buttons">
