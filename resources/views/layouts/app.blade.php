@@ -24,7 +24,7 @@
         <nav class="navbar">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Carmen Andrea Reyes Reyes') }}
+                    {{ config('app.name', 'ReysonVial') }}
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
