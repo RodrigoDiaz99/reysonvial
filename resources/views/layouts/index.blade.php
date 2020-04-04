@@ -55,7 +55,7 @@
             <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Acceso</a>
+            <a class="nav-link js-scroll-trigger" href="#contact"></a>
             @if (Route::has('login'))
                     <div class="flex-center position-ref full-height">
                         @auth
