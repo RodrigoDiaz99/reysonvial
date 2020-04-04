@@ -40,15 +40,17 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
           </li>
-          <li class="nav-item">
+
+         <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a>
-          </li>
+          </li>-->
+
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
           </li>
-          <li class="nav-item">
+         <!--   <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Equipo</a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
