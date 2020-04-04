@@ -11,10 +11,10 @@
   <title>Agency - Start Bootstrap Theme</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="{{ asset('css/all.min.css') }}" rel="stylesheet" type="text/css">
+  <link href="css/all.min.css" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='//fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -696,18 +696,18 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="{{ asset('js/jquery.min.js') }}"></script>
-  <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+  <script src="js/jquery.easing.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="{{ asset('js/jqBootstrapValidation.js') }}"></script>
-  <script src="{{ asset('js/contact_me.js') }}"></script>
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="{{ asset('js/agency.min.js') }}"></script>
+  <script src="js/agency.min.js"></script>
 
 </body>
 
