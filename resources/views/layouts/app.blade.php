@@ -24,7 +24,7 @@
         <nav class="navbar">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'ReysonVial') }}
+                    {{ config('app.name', '') }}
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
