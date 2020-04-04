@@ -54,6 +54,18 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Acceso</a>
+            @if (Route::has('login'))
+                    <div class="flex-center position-ref full-height">
+                        @auth
+                        <a class="nav-link js-scroll-trigger" href="{{ url('/home') }}"></a>
+                        @else
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('login') }}">Acceso</a></li>
+                        @endauth
+                    </div>
+                    @endif
+          </li>
         </ul>
       </div>
     </div>
@@ -328,7 +340,7 @@
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="https://res.cloudinary.com/hof8uut6x/image/upload/v1586040778/descarga_slj9rq.png" alt="">
             <h4>Juan Sonda</h4>
-            <p class="text-muted">Lead Marketer</p>
+            <p class="text-muted">Marketing</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
