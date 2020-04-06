@@ -3,9 +3,9 @@
 @section('content')
 <div class="container">
     <div class="d-flex justify-content-center h-100">
-        <!--<div class="col-md-8">-->
+       <div class="col-md-8">
         <div class="card">
-            <!-- <div class="card-header">{{ __('Login') }}</div>-->
+             <div class="card-header">{{ __('Login') }}</div>
             <h3 class="title">Acceder</h3>
             <div class="card-body">
                 <form method="POST" action="{{ route('login') }}">
