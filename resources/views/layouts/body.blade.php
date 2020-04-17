@@ -98,15 +98,15 @@
     <!--================================= OUR SERVICES START =============================================-->
     <section class="container-fluid section-space section-bg-1" id="services">
         <div class="container">
-            <h1 class="center">our services</h1>
+            <h1 class="center">Nuestros Servicios</h1>
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6 common-full">
                     <div class="services-icon">
                         <img src="images/64x64x1.png" alt="icon" />
                     </div>
                     <div class="services-pad services-bottom">
-                        <h3 class="left h3-bottom"><a href="#">design</a></h3>
-                        <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel sagittis ipsum</p>
+                        <h3 class="left h3-bottom"><a href="#">Emergencia</a></h3>
+                        <p class="left">Cuando te urge.</p>
                     </div>
                 </div>
 
@@ -115,8 +115,8 @@
                         <img src="images/64x64x2.png" alt="icon" />
                     </div>
                     <div class="services-pad services-bottom">
-                        <h3 class="left h3-bottom"><a href="#"> development </a></h3>
-                        <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel sagittis ipsum</p>
+                        <h3 class="left h3-bottom"><a href="#">Preventivo </a></h3>
+                        <p class="left">Para que no te detengas despues.</p>
                     </div>
                 </div>
 
@@ -125,43 +125,10 @@
                         <img src="images/64x64x3.png" alt="icon" />
                     </div>
                     <div class="services-pad services-bottom">
-                        <h3 class="left h3-bottom"><a href="#">app</a></h3>
-                        <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel sagittis ipsum</p>
+                        <h3 class="left h3-bottom"><a href="#">Correctivo</a></h3>
+                        <p class="left">Para que no te siga deteniendo.</p>
                     </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-6 common-full">
-                    <div class="services-icon">
-                        <img src="images/64x64x4.png" alt="icon" />
-                    </div>
-                    <div class="services-pad res-services-bottom services-res-bottom">
-                        <h3 class="left h3-bottom"><a href="#">easy</a></h3>
-                        <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel sagittis ipsum</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-6 common-full">
-                    <div class="services-icon">
-                        <img src="images/64x64x5.png" alt="icon" />
-                    </div>
-                    <div class="services-pad services-res-bottom">
-                        <h3 class="left h3-bottom"><a href="#">modern</a></h3>
-                        <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel sagittis ipsum</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-6 common-full">
-                    <div class="services-icon">
-                        <img src="images/64x64x6.png" alt="icon" />
-                    </div>
-                    <div class="services-pad">
-                        <h3 class="left h3-bottom"><a href="#">support</a></h3>
-                        <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel sagittis ipsum</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--================================= OUR SERVICES END =============================================-->
 
     <!--================================= OUR ENVIRONMENT START =============================================-->
