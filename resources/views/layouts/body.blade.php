@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Lead</title>
     <!-- FAVICON LINK -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/hof8uut6x/image/upload/v1587155542/favicon_jkqabe.pnghttps://res.cloudinary.com/hof8uut6x/image/upload/v1587155542/favicon_jkqabe.png">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
