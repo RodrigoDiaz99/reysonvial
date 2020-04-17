@@ -10,15 +10,15 @@
     <!-- FAVICON LINK -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <!-- FONT AWESOME LINK -->
-    <link rel="stylesheet" type="text/css" href="css/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
     <!-- IMAGE OVERLAY STYLE LINK  -->
-    <link rel="stylesheet" type="text/css" href="css/vendor/overlay/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- LIGHTBOX STYLE LINK -->
-    <link rel="stylesheet" type="text/css" href="css/vendor/lightbox/ekko-style.css">
+    <link rel="stylesheet" type="text/css" href="css/ekko-style.css">
 
     <!-- CAROUSEL STYLE LINK  -->
     <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.carousel.css">
