@@ -21,12 +21,12 @@
     <link rel="stylesheet" type="text/css" href="css/ekko-style.css">
 
     <!-- CAROUSEL STYLE LINK  -->
-    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
 
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" type="text/css" href="css/custom/style_blue.css">
+    <link rel="stylesheet" type="text/css" href="css/style_blue.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -1392,44 +1392,44 @@
     </section>
     <!--================================= FOOTER END =============================================-->
     <!-- JQUERY LIBRARY -->
-    <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- BOOTSTRAP -->
-    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <!-- SUBSCRIBE MAILCHIMP -->
-    <script type="text/javascript" src="js/vendor/subscribe/subscribe_validate.js"></script>
+    <script type="text/javascript" src="js/subscribe_validate.js"></script>
 
     <!-- VALIDATION  -->
-    <script type="text/javascript" src="js/vendor/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 
 
     <!-- SLIDER JS FILES -->
-    <script type="text/javascript" src="js/vendor/slider/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/vendor/slider/carousel.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
 
     <!-- SUBSCRIBE MAILCHIMP -->
-    <script type="text/javascript" src="js/vendor/subscribe/subscribe_validate.js"></script>
+    <script type="text/javascript" src="js/subscribe_validate.js"></script>
 
     <!-- IMAGE OVERLAY JS FILE -->
-    <script type="text/javascript" src="js/vendor/img-overlay/modernizr.js"></script>
-    <script type="text/javascript" src="js/vendor/img-overlay/overlay.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/overlay.js"></script>
     <!-- LIGHT BOX GALLERY -->
-    <script type="text/javascript" src="js/vendor/lightbox/ekko-lightbox.js"></script>
-    <script type="text/javascript" src="js/vendor/lightbox/lightbox.js"></script>
+    <script type="text/javascript" src="js/ekko-lightbox.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
 
     <!-- VIDEO -->
-    <script type="text/javascript" src="js/vendor/video/video.js"></script>
+    <script type="text/javascript" src="js/video.js"></script>
 
     <!-- COUNTER JS FILES -->
-    <script type="text/javascript" src="js/vendor/counter/counter-lib.js"></script>
-    <script type="text/javascript" src="js/vendor/counter/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="js/counter-lib.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 
     <!-- PHONE_NUMBER VALIDATION JS -->
-    <script type="text/javascript" src="js/vendor/phone_number/phone_number.js"></script>
+    <script type="text/javascript" src="js/phone_number.js"></script>
 
 
     <!-- THEME JS -->
-    <script type="text/javascript" src="js/custom/custom.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 
