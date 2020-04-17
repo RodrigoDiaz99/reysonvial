@@ -49,21 +49,21 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div>
-                        <a href="#"> <img src="images/logo.png" alt="logo" />
+                        <a href="#"> <img src="https://res.cloudinary.com/hof8uut6x/image/upload/v1587159349/logo_fq3xoz.png" alt="logo" />
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right no-margin" id="menu-list">
-                        <li class="menu-fs menu-underline"><a href="#home" class="pagescroll">home</a>
+                        <li class="menu-fs menu-underline"><a href="#home" class="pagescroll">Inicio</a>
                         </li>
-                        <li class="menu-fs menu-underline"><a href="#services" class="pagescroll">services</a>
+                        <li class="menu-fs menu-underline"><a href="#services" class="pagescroll">Servicios</a>
                         </li>
-                        <li class="menu-fs menu-underline"><a href="#gallery" class="pagescroll"> gallery </a>
-                        </li>
-                        <li class="menu-fs menu-underline"><a href="#price" class="pagescroll"> price</a>
-                        </li>
-                        <li class="menu-fs menu-underline"><a href="#contact" class="pagescroll"> contact</a>
+                        <!--<li class="menu-fs menu-underline"><a href="#gallery" class="pagescroll"> gallery </a>
+                        </li>-->
+                         <!--<li class="menu-fs menu-underline"><a href="#price" class="pagescroll"> price</a>
+                        </li>-->
+                        <li class="menu-fs menu-underline"><a href="#contact" class="pagescroll"> Contacto</a>
                         </li>
                     </ul>
                 </div>
