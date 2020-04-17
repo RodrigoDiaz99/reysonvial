@@ -1,1 +1,1 @@
-@extends('ap2')
+@extends('layouts.ap2')
