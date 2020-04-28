@@ -1,817 +1,837 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
     <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>Colorlib App - App Landing Page</title>
+    <title>Home</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/themify-icons.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script src="/js/modernizr-2.8.3.min.js"></script>
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Core Stylesheet -->
-    <link href="style.css" rel="stylesheet">
-
-    <!-- Responsive CSS -->
-    <link href="/css/responsive.css" rel="stylesheet">
-
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body>
-    <!-- Preloader Start -->
-    <div id="preloader">
-        <div class="colorlib-load"></div>
-    </div>
+<body data-spy="scroll" data-target="#primary-menu">
 
-    <!-- ***** Header Area Start ***** -->
-    <header class="header_area animated">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <!-- Menu Area Start -->
-                <div class="col-12 col-lg-10">
-                    <div class="menu_area">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <!-- Logo -->
-                            <a class="navbar-brand" href="#">Ca.</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                            <!-- Menu Area -->
-                            <div class="collapse navbar-collapse" id="ca-navbar">
-                                <ul class="navbar-nav ml-auto" id="nav">
-                                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                                </ul>
-                                <div class="sing-up-button d-lg-none">
-                                    <a href="#">Sign Up Free</a>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!--Mainmenu-area-->
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+        <div class="container">
+            <!--Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand logo">
+                    <h2>colid</h2>
+                </a>
+            </div>
+            <!--Logo/-->
+            <nav class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home-page">Home</a></li>
+                    <li><a href="#service-page">Service</a></li>
+                    <li><a href="#feature-page">Features</a></li>
+                    <li><a href="#price-page">Pricing</a></li>
+                    <li><a href="#team-page">Team</a></li>
+                    <li><a href="#faq-page">FAQ</a></li>
+                    <li><a href="#blog-page">Blog</a></li>
+                    <li><a href="#contact-page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Mainmenu-area/-->
+
+
+
+    <!--Header-area-->
+    <header class="header-area overlay full-height relative v-center" id="home-page">
+        <div class="absolute anlge-bg"></div>
+        <div class="container">
+            <div class="row v-center">
+                <div class="col-xs-12 col-md-7 header-text">
+                    <h2>It’s all about Promoting your Business</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex inventore vel error quibusdam animi fugiat, doloribus dolores consectetur nulla deleniti sint blanditiis quod debitis quis vitae officiis tempora numquam.</p>
+                    <a href="#" class="button white">Watch video</a>
                 </div>
-                <!-- Signup btn -->
-                <div class="col-12 col-lg-2">
-                    <div class="sing-up-button d-none d-lg-block">
-                        <a href="#">Sign Up Free</a>
+                <div class="hidden-xs hidden-sm col-md-5 text-right">
+                    <div class="screen-box screen-slider">
+                        <div class="item">
+                            <img src="images/screen-1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-4.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-5.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
+    <!--Header-area/-->
 
-    <!-- ***** Wellcome Area Start ***** -->
-    <section class="wellcome_area clearfix" id="home">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 col-md">
-                    <div class="wellcome-heading">
-                        <h2>Colorlib app</h2>
-                        <h3>C</h3>
-                        <p>Everything You Need. To Start Selling Online Beautifully</p>
-                    </div>
-                    <div class="get-start-area">
-                        <!-- Form Start -->
-                        <form action="#" method="post" class="form-inline">
-                            <input type="email" class="form-control email" placeholder="name@company.com">
-                            <input type="submit" class="submit" value="Get Started">
-                        </form>
-                        <!-- Form End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Welcome thumb -->
-        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
-            <img src="img/bg-img/welcome-img.png" alt="">
-        </div>
-    </section>
-    <!-- ***** Wellcome Area End ***** -->
 
-    <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white section_padding_100" id="about">
+
+    <!--Feature-area-->
+    <section class="gray-bg section-padding" id="service-page">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <!-- Section Heading Area -->
-                    <div class="section-heading text-center">
-                        <h2>Why Is It Special</h2>
-                        <div class="line-shape"></div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-1.png" alt="">
+                        </div>
+                        <h4>EASY TO USE</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="single-icon">
-                            <i class="ti-mobile" aria-hidden="true"></i>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-2.png" alt="">
                         </div>
-                        <h4>Easy to use</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <h4>AWESOEM DESIGN</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
                     </div>
                 </div>
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="single-icon">
-                            <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-3.png" alt="">
                         </div>
-                        <h4>Powerful Design</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                    </div>
-                </div>
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="single-icon">
-                            <i class="ti-settings" aria-hidden="true"></i>
-                        </div>
-                        <h4>Customizability</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <h4>EASY TO CUSTOMAIZE</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Special Description Area -->
-        <div class="special_description_area mt-150">
+    </section>
+    <!--Feature-area/-->
+
+    <section class="angle-bg sky-bg section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Easy to build</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Easy to use</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Easy to customize</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-7.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Awesome design</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators caption-indector">
+                            <li data-target="#caption_slide" data-slide-to="0" class="active">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="1">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="2">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="3">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="gray-bg section-padding" id="feature-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>SPECIAL FEATURES</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-1.png" alt="">
+                        </div>
+                        <h3>Creative Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-2.png" alt="">
+                        </div>
+                        <h3>Unlimited Features</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-3.png" alt="">
+                        </div>
+                        <h3>Full Free Chat</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-4.png" alt="">
+                        </div>
+                        <h3>Retina ready</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-5.png" alt="">
+                        </div>
+                        <h3>High Resolution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-6.png" alt="">
+                        </div>
+                        <h3>Clean Codes</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="price-area overlay section-padding" id="price-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Afortable Price</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table">
+                        <h3 class="text-uppercase price-title">Basic</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>
+                            <li>100 MB Disk Space</li>
+                            <li>2 Subdomains</li>
+                            <li>5 Email Accounts</li>
+                            <li>Webmail Support</li>
+                            <li>Customer Support 24/7</li>
+                        </ul>
+                        <hr>
+                        <a href="#" class="button">Purchase</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table active">
+                        <span class="price-info"><span class="ti-crown"></span></span>
+                        <h3 class="text-uppercase price-title">STABDARD</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li><strong class="amount">$ <span class="big">39</span></strong>/Month</li>
+                            <li>100 MB Disk Space</li>
+                            <li>2 Subdomains</li>
+                            <li>5 Email Accounts</li>
+                            <li>Webmail Support</li>
+                            <li>Customer Support 24/7</li>
+                        </ul>
+                        <hr>
+                        <a href="#" class="button">Purchase</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table">
+                        <h3 class="text-uppercase price-title">UNLIMITED</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>
+                            <li>100 MB Disk Space</li>
+                            <li>2 Subdomains</li>
+                            <li>5 Email Accounts</li>
+                            <li>Webmail Support</li>
+                            <li>Customer Support 24/7</li>
+                        </ul>
+                        <hr>
+                        <a href="#" class="button">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section-padding gray-bg" id="team-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Special team</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-1.png" alt="">
+                        </div>
+                        <h4>JEMY SEDONCE</h4>
+                        <h6>Co. Founder</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-2.png" alt="">
+                        </div>
+                        <h4>DEBORAH BROWN</h4>
+                        <h6>UX Designer</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-3.png" alt="">
+                        </div>
+                        <h4>HARRY BANKS</h4>
+                        <h6>Founder</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-4.png" alt="">
+                        </div>
+                        <h4>VICTORIA CLARK</h4>
+                        <h6>Creative Director</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="testimonial-area section-padding gray-bg overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Client says</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="testimonials">
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-1.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-2.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-3.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-4.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-5.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-6.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="gray-bg section-padding" id="faq-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Frequently Asked Questions</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">Sedeiusmod tempor inccsetetur aliquatraiy?</a>
+                            </h4>
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tempor inccsetetur aliquatraiy?</a>
+                            </h4>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
+                            </h4>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
+                            </h4>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="section-padding overlay client-area overlay" id="client-page">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <div class="clients">
+                        <div class="item">
+                            <img src="images/themeforest.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/coadcanyon.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/graphicriver.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/docean.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/audiojungle.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/actividen.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/photodone.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/videgub.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/themeforest.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/coadcanyon.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/graphicriver.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/docean.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/audiojungle.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/actividen.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/photodone.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/videgub.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-padding gray-bg" id="blog-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-photo">
+                            <img src="images/small1.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
+                            <ul class="blog-meta">
+                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-photo">
+                            <img src="images/small2.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
+                            <ul class="blog-meta">
+                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-photo">
+                            <img src="images/small3.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
+                            <ul class="blog-meta">
+                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer-area relative sky-bg" id="contact-page">
+        <div class="absolute footer-bg"></div>
+        <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="special_description_img">
-                            <img src="img/bg-img/special.png" alt="">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="page-title">
+                            <h2>Contact with us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
-                        <div class="special_description_content">
-                            <h2>Our Best Propositions for You!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                            <div class="app-download-area">
-                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
-                                    <!-- Google Store Btn -->
-                                    <a href="#">
-                                        <i class="fa fa-android"></i>
-                                        <p class="mb-0"><span>available on</span> Google Store</p>
-                                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/location-arrow.png" alt="">
                                 </div>
-                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
-                                    <!-- Apple Store Btn -->
-                                    <a href="#">
-                                        <i class="fa fa-apple"></i>
-                                        <p class="mb-0"><span>available on</span> Apple Store</p>
-                                    </a>
+                                <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/phone-arrow.png" alt="">
                                 </div>
+                                <p><strong>Telephone: </strong>
+                                    <a href="callto:8801812726495">+8801812726495</a> <br />
+                                    <a href="callto:8801687420471">+8801687420471</a>
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Special Area End ***** -->
-
-    <!-- ***** Awesome Features Start ***** -->
-    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text -->
-                    <div class="section-heading text-center">
-                        <h2>Awesome Features</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-user" aria-hidden="true"></i>
-                        <h5>Awesome Experience</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-pulse" aria-hidden="true"></i>
-                        <h5>Fast and Simple</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-dashboard" aria-hidden="true"></i>
-                        <h5>Clean Code</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-palette" aria-hidden="true"></i>
-                        <h5>Perfect Design</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-crown" aria-hidden="true"></i>
-                        <h5>Best Industry Leader</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-headphone" aria-hidden="true"></i>
-                        <h5>24/7 Online Support</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- ***** Awesome Features End ***** -->
-
-    <!-- ***** Video Area Start ***** -->
-    <div class="video-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Video Area Start -->
-                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
-                        <div class="video-play-btn">
-                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Video Area End ***** -->
-
-    <!-- ***** Cool Facts Area Start ***** -->
-    <section class="cool_facts_area clearfix">
-        <div class="container">
-            <div class="row">
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-area">
-                            <h3><span class="counter">90</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-arrow-down-a"></i>
-                            <p>APP <br> DOWNLOADS</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="counter-area">
-                            <h3><span class="counter">120</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-happy-outline"></i>
-                            <p>Happy <br> Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="counter-area">
-                            <h3><span class="counter">40</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-person"></i>
-                            <p>ACTIVE <br>ACCOUNTS</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="counter-area">
-                            <h3><span class="counter">10</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-ios-star-outline"></i>
-                            <p>TOTAL <br>APP RATES</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Cool Facts Area End ***** -->
-
-    <!-- ***** App Screenshots Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>App Screenshots</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <!-- App Screenshots Slides  -->
-                    <div class="app_screenshots_slides owl-carousel">
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-1.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-2.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-3.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-4.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-5.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-3.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** App Screenshots Area End *****====== -->
-
-    <!-- ***** Pricing Plane Area Start *****==== -->
-    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text  -->
-                    <div class="section-heading text-center">
-                        <h2>Pricing Plan</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row no-gutters">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Starter Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>29</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Basic Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>49</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan active text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Advenced Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>69</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Community Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>99</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Pricing Plane Area End ***** -->
-
-    <!-- ***** Client Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="slider slider-for">
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Aigars Silkalns</h5>
-                                <p>Ceo Colorlib</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Jennifer</h5>
-                                <p>Developer</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Helen</h5>
-                                <p>Marketer</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Henry smith</h5>
-                                <p>Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Client Thumbnail Area -->
-                <div class="col-12 col-md-6 col-lg-5">
-                    <div class="slider slider-nav">
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-3.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-2.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-1.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Client Feedback Area End ***** -->
-
-    <!-- ***** CTA Area Start ***** -->
-    <section class="our-monthly-membership section_padding_50 clearfix">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <div class="membership-description">
-                        <h2>Join our Monthly Membership</h2>
-                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                        <a href="#">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** CTA Area End ***** -->
-
-    <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Our Team</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-1.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/mail-arrow.png" alt="">
                                 </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
+                                    <a href="mailto:youremail@example.com">example@mail.com</a>
+                                </p>
                             </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Jackson Nash</h4>
-                            <p>Tax Advice</p>
-                        </div>
+                        </address>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-2.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
+                    <div class="col-xs-12 col-md-8">
+                        <form action="process.php" id="contact-form" method="post" class="contact-form">
+                            <div class="form-double">
+                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
+                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
                             </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Alex Manning</h4>
-                            <p>CEO-Founder</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-3.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Ollie Schneider</h4>
-                            <p>Business Planner</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-4.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Roger West</h4>
-                            <p>Financer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Our Team Area End ***** -->
-
-    <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Get in touch with us!</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                    <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
-                    </div>
-                    <div class="address-text">
-                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
-                    </div>
-                    <div class="phone-text">
-                        <p><span>Phone:</span> +11-225-888-888-66</p>
-                    </div>
-                    <div class="email-text">
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
-                    <div class="contact_from">
-                        <form action="#" method="post">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_area">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Input Area End -->
+                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
+                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
+                            <button type="sibmit" class="button">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ***** Contact Us Area End ***** -->
-
-    <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-social-icon text-center section_padding_70 clearfix">
-        <!-- footer logo -->
-        <div class="footer-text">
-            <h2>Ca.</h2>
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 pull-right">
+                        <ul class="social-menu text-right x-left">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-google"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti architecto consequuntur, laborum quaerat sed nemo temporibus unde, beatae vel.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- social icon-->
-        <div class="footer-social-icon">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        </div>
-        <div class="footer-menu">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Foooter Text-->
-        <div class="copyright-text">
-            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy;Copyright 2018 All right resurved.  This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-    <!-- ***** Footer Area Start ***** -->
 
-    <!-- Jquery-2.2.4 JS -->
-    <script src="/js/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="/js/popper.min.js"></script>
-    <!-- Bootstrap-4 Beta JS -->
-    <script src="/js/bootstrap.min.js"></script>
-    <!-- All Plugins JS -->
-    <script src="/js/plugins.js"></script>
-    <!-- Slick Slider Js-->
-    <script src="/js/slick.min.js"></script>
-    <!-- Footer Reveal JS -->
-    <script src="/js/footer-reveal.min.js"></script>
-    <!-- Active JS -->
-    <script src="/js/active.js"></script>
+
+
+
+
+    <!--Vendor-JS-->
+    <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/contact-form.js"></script>
+    <script src="/js/jquery.parallax-1.1.3.js"></script>
+    <script src="/js/scrollUp.min.js"></script>
+    <script src="/js/magnific-popup.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
