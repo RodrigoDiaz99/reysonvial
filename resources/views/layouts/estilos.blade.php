@@ -1,579 +1,817 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>StartUp</title>
+    <meta charset="UTF-8">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <!-- Place favicon.ico in the root directory -->
+    <!-- Title -->
+    <title>Colorlib App - App Landing Page</title>
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/css/magnific-popup.css">
-    <link rel="stylesheet" href="css/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/css/themify-icons.css">
-    <link rel="stylesheet" href="css/css/nice-select.css">
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
 
-    <link rel="stylesheet" href="css/css/flaticon.css">
-    <link rel="stylesheet" href="css/css/gijgo.css">
-    <link rel="stylesheet" href="css/css/animate.min.css">
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/css/slick.css">
-    <link rel="stylesheet" href="css/css/slicknav.css">
-    <link rel="stylesheet" href="css/css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
 
-    <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid p-0">
-                    <div class="row align-items-center no-gutters">
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo-img">
-                                <a href="index.html">
-                                    <img src="img/logo.png" alt="">
-                                </a>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="#">Ca.</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                </ul>
+                                <div class="sing-up-button d-lg-none">
+                                    <a href="#">Sign Up Free</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8">
-                            <div class="main-menu  d-none d-lg-block text-center">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a class="active" href="index.html">home</a></li>
-                                        <li><a href="service.html">services</a></li>
-                                        <li><a href="Portfolio.html">Portfolio</a></li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="portfolio_details.html">Portfolio details</a></li>
-                                                <li><a href="about.html">about</a></li>
-                                                <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 d-none d-lg-block">
-                            <div class="log_chat_area d-flex align-items-end">
-                                <a href="#" data-scroll-nav="0" class="say_hi">Say Hello</a>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        <a href="#">Sign Up Free</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- header-end -->
+    <!-- ***** Header Area End ***** -->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>Colorlib app</h2>
+                        <h3>C</h3>
+                        <p>Everything You Need. To Start Selling Online Beautifully</p>
+                    </div>
+                    <div class="get-start-area">
+                        <!-- Form Start -->
+                        <form action="#" method="post" class="form-inline">
+                            <input type="email" class="form-control email" placeholder="name@company.com">
+                            <input type="submit" class="submit" value="Get Started">
+                        </form>
+                        <!-- Form End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome thumb -->
+        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+            <img src="img/bg-img/welcome-img.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
+                    <div class="section-heading text-center">
+                        <h2>Why Is It Special</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-icon">
+                            <i class="ti-mobile" aria-hidden="true"></i>
+                        </div>
+                        <h4>Easy to use</h4>
+                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-icon">
+                            <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                        </div>
+                        <h4>Powerful Design</h4>
+                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-settings" aria-hidden="true"></i>
+                        </div>
+                        <h4>Customizability</h4>
+                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Special Description Area -->
+        <div class="special_description_area mt-150">
             <div class="container">
-                <div class="row align-items-center justify-content-start">
-                    <div class="col-lg-10 col-md-10">
-                        <div class="slider_text">
-                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
-                                Startup you can build a
-                                website online using the
-                                Bootstrap builder.
-                            </h3>
-                            <a class="boxed-btn3 wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".2s" href="portfolio.html">Visit Our Works</a>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="special_description_img">
+                            <img src="img/bg-img/special.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                        <div class="special_description_content">
+                            <h2>Our Best Propositions for You!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <div class="app-download-area">
+                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                    <!-- Google Store Btn -->
+                                    <a href="#">
+                                        <i class="fa fa-android"></i>
+                                        <p class="mb-0"><span>available on</span> Google Store</p>
+                                    </a>
+                                </div>
+                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                    <!-- Apple Store Btn -->
+                                    <a href="#">
+                                        <i class="fa fa-apple"></i>
+                                        <p class="mb-0"><span>available on</span> Apple Store</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Awesome Features Start ***** -->
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text -->
+                    <div class="section-heading text-center">
+                        <h2>Awesome Features</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-user" aria-hidden="true"></i>
+                        <h5>Awesome Experience</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-pulse" aria-hidden="true"></i>
+                        <h5>Fast and Simple</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-dashboard" aria-hidden="true"></i>
+                        <h5>Clean Code</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-palette" aria-hidden="true"></i>
+                        <h5>Perfect Design</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-crown" aria-hidden="true"></i>
+                        <h5>Best Industry Leader</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-headphone" aria-hidden="true"></i>
+                        <h5>24/7 Online Support</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ***** Awesome Features End ***** -->
+
+    <!-- ***** Video Area Start ***** -->
+    <div class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Video Area Start -->
+                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                        <div class="video-play-btn">
+                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- slider_area_end -->
+    <!-- ***** Video Area End ***** -->
 
-    <!-- service_area  -->
-    <div class="service_area">
+    <!-- ***** Cool Facts Area Start ***** -->
+    <section class="cool_facts_area clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-area">
+                            <h3><span class="counter">90</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-arrow-down-a"></i>
+                            <p>APP <br> DOWNLOADS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-area">
+                            <h3><span class="counter">120</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-happy-outline"></i>
+                            <p>Happy <br> Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-area">
+                            <h3><span class="counter">40</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-person"></i>
+                            <p>ACTIVE <br>ACCOUNTS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="counter-area">
+                            <h3><span class="counter">10</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-ios-star-outline"></i>
+                            <p>TOTAL <br>APP RATES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Cool Facts Area End ***** -->
+
+    <!-- ***** App Screenshots Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>App Screenshots</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="app_screenshots_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-1.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-2.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-3.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-4.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-5.jpg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/app-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** App Screenshots Area End *****====== -->
+
+    <!-- ***** Pricing Plane Area Start *****==== -->
+    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text  -->
+                    <div class="section-heading text-center">
+                        <h2>Pricing Plan</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Starter Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>29</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Basic Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>49</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan active text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Advenced Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>69</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Community Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>99</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Pricing Plane Area End ***** -->
+
+    <!-- ***** Client Feedback Area Start ***** -->
+    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb-70">
-                        <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" >Services</span>
-                        <h3 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">With more than 20 years of
-                            experience we can deliver the
-                            best product design.</h3>
+                <div class="col-12 col-md-10">
+                    <div class="slider slider-for">
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Aigars Silkalns</h5>
+                                <p>Ceo Colorlib</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Jennifer</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Helen</h5>
+                                <p>Marketer</p>
+                            </div>
+                        </div>
+                        <!-- Client Feedback Text  -->
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Henry smith</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Client Thumbnail Area -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="slider slider-nav">
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-3.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-1.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Client Feedback Area End ***** -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="our-monthly-membership section_padding_50 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="membership-description">
+                        <h2>Join our Monthly Membership</h2>
+                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Our Team Area Start ***** -->
+    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Our Team</h2>
+                        <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_service text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".4s">
-                        <div class="icon">
-                            <img src="img/svg_icon/1.svg" alt="">
-                        </div>
-                        <h3>Graphic design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                        <div class="icon">
-                            <img src="img/svg_icon/2.svg" alt="">
-                        </div>
-                        <h3>Web design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_service text-center wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".4s">
-                        <div class="icon">
-                            <img src="img/svg_icon/3.svg" alt="">
-                        </div>
-                        <h3>Mobile app</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ service_area  -->
-
-    <div class="about_area">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-lg-5 offset-lg-1">
-                    <div class="about_info">
-                        <div class="section_title white_text">
-                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">About Us</span>
-                            <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Empowering individuals </h3>
-                            <p class="mid_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Efficiently unleash cross-media tour function information without cross action media value. Quickly maximize timely deliverables for real-time schemas.</p>
-                            <p class="last_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">“Function information without cross action media value.</p>
-                            <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">About Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- portfolio_image_area  -->
-    <div class="portfolio_image_area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb-90">
-                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Featured Works</h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-md-12">
-                    <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                        <div class="portfolio_thumb">
-                            <img src="img/portfolio/1.png" alt="">
-                        </div>
-                        <div class="portfolio_hover">
-                            <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-1.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                        <div class="portfolio_thumb">
-                            <img src="img/portfolio/2.png" alt="">
-                        </div>
-                        <div class="portfolio_hover">
-                            <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
-                            </div>
+                        <div class="member-text">
+                            <h4>Jackson Nash</h4>
+                            <p>Tax Advice</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-lg-4">
-                    <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="portfolio_thumb">
-                            <img src="img/portfolio/3.png" alt="">
-                        </div>
-                        <div class="portfolio_hover">
-                            <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-2.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
                             </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Alex Manning</h4>
+                            <p>CEO-Founder</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-lg-4">
-                    <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                        <div class="portfolio_thumb">
-                            <img src="img/portfolio/4.png" alt="">
-                        </div>
-                        <div class="portfolio_hover">
-                            <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-3.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
                             </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Ollie Schneider</h4>
+                            <p>Business Planner</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-lg-4">
-                    <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                        <div class="portfolio_thumb">
-                            <img src="img/portfolio/5.png" alt="">
-                        </div>
-                        <div class="portfolio_hover">
-                            <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-4.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
                             </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Roger West</h4>
+                            <p>Financer</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--/ portfolio_image_area  -->
+    </section>
+    <!-- ***** Our Team Area End ***** -->
 
-    <div class="how_we_work_area">
+    <!-- ***** Contact Us Area Start ***** -->
+    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="work_info">
-                        <div class="section_title">
-                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">How we work</h3>
-                            <p class="mid_text wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">“Function information without cross action media value.</p>
-                            <p class="last_p wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">Efficiently unleash cross-media tour function information without cross action media value. Quickly maximize timely deliverables for real-time schemas.</p>
-                        </div>
-                        <div class="video_watch d-flex align-items-center">
-                            <div class="play_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                <a href="https://www.youtube.com/watch?v=D7tF-cY2M9o" class="video_icon popup-video"> <i class="fa fa-play"></i> </a>
-                            </div>
-                           <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s"> Watch Video</span>
-                        </div>
+                <div class="col-md-6">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Get in touch with us!</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                    <div class="footer-text">
+                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                    </div>
+                    <div class="address-text">
+                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                    </div>
+                    <div class="phone-text">
+                        <p><span>Phone:</span> +11-225-888-888-66</p>
+                    </div>
+                    <div class="email-text">
+                        <p><span>Email:</span> info.deercreative@gmail.com</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- team_member_start -->
-    <div class="team_area ">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb-90">
-                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Our Creative Team</h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                        <div class="team_thumb">
-                            <img src="img/team/1.png" alt="">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>Brandon Yeald</h3>
-                            <p>Founder & CEO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                        <div class="team_thumb">
-                            <img src="img/team/2.png" alt="">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>Calvin Anderson</h3>
-                            <p>Graphics Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                        <div class="team_thumb">
-                            <img src="img/team/3.png" alt="">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>Roman Solo</h3>
-                            <p>Wordpress Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                        <div class="team_thumb">
-                            <img src="img/team/4.png" alt="">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>Yeald Kin</h3>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ team_member_end -->
-
-    <!-- testimonial_area  -->
-    <div class="testimonial_area ">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                                <div class="single_testmonial text-center">
-                                        <div class="quote">
-                                            <img src="img/testmonial/quote.svg" alt="">
-                                        </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                        <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="img/testmonial/thumb.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
+                <div class="col-md-6">
+                    <!-- Form Start-->
+                    <div class="contact_from">
+                        <form action="#" method="post">
+                            <!-- Message Input Area Start -->
+                            <div class="contact_input_area">
+                                <div class="row">
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
                                         </div>
                                     </div>
-                        </div>
-                        <div class="single_carousel">
-                                <div class="single_testmonial text-center">
-                                        <div class="quote">
-                                            <img src="img/testmonial/quote.svg" alt="">
-                                        </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                        <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="img/testmonial/thumb.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
                                         </div>
                                     </div>
-                        </div>
-                        <div class="single_carousel">
-                                <div class="single_testmonial text-center">
-                                        <div class="quote">
-                                            <img src="img/testmonial/quote.svg" alt="">
-                                        </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                        <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="img/testmonial/thumb.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
                                         </div>
                                     </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /testimonial_area  -->
-
-    <div data-scroll-index="0" class="get_in_tauch_area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb-90">
-                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Get in Touch</h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="touch_form">
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                        <input type="text" placeholder="Your Name" >
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                        <input type="email" placeholder="Email" >
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <input type="email" placeholder="Subject" >
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                       <textarea name="" id="" cols="30" placeholder="Message" rows="10"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                        <button class="boxed-btn3" type="submit">Send Message</button>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn submit-btn">Send Now</button>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Message Input Area End -->
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- ***** Contact Us Area End ***** -->
 
-
-    <!-- footer start -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-2 col-md-3">
-                        <div class="footer_logo wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                            <a href="index.html">
-                                <img src="img/logo.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-7 col-md-9">
-                        <div class="menu_links">
-                            <ul>
-                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s" href="#">About</a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"></li>
-                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#">Services</a></li>
-                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">Portfolio</a></li>
-                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".8s" href="#">Pages</a></li>
-                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" href="#">Blog</a></li>
-                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.1s" href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-12">
-                        <div class="socail_links">
-                            <ul>
-                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="#"> <i class="fa fa-twitter"></i> </a></li>
-                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" href="#"> <i class="fa fa-instagram"></i> </a></li>
-                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>Ca.</h2>
         </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
         </div>
     </footer>
-    <!--/ footer end  -->
+    <!-- ***** Footer Area Start ***** -->
 
-    <!-- JS here -->
-    <script src="js/js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/js/popper.min.js"></script>
-    <script src="js/js/bootstrap.min.js"></script>
-    <script src="js/js/owl.carousel.min.js"></script>
-    <script src="js/js/isotope.pkgd.min.js"></script>
-    <script src="js/js/ajax-form.js"></script>
-    <script src="js/js/waypoints.min.js"></script>
-    <script src="js/js/jquery.counterup.min.js"></script>
-    <script src="js/js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/js/scrollIt.js"></script>
-    <script src="js/js/jquery.scrollUp.min.js"></script>
-    <script src="js/js/wow.min.js"></script>
-    <script src="js/js/nice-select.min.js"></script>
-    <script src="js/js/jquery.slicknav.min.js"></script>
-    <script src="js/js/jquery.magnific-popup.min.js"></script>
-    <script src="js/js/plugins.js"></script>
-    <script src="js/js/gijgo.min.js"></script>
-
-    <!--contact js-->
-    <script src="js/js/contact.js"></script>
-    <script src="js/js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/js/jquery.form.js"></script>
-    <script src="js/js/jquery.validate.min.js"></script>
-    <script src="js/js/mail-script.js"></script>
-
-    <script src="js/js/main.js"></script>
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
 </body>
 
 </html>
