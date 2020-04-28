@@ -37,7 +37,7 @@
                     <div class="menu_area">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <!-- Logo -->
-                            <a class="navbar-brand" href="#">Ca.</a>
+                            <a class="navbar-brand" href="#">ReysonVial.</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                             <!-- Menu Area -->
                             <div class="collapse navbar-collapse" id="ca-navbar">
@@ -75,18 +75,11 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md">
                     <div class="wellcome-heading">
-                        <h2>Colorlib app</h2>
-                        <h3>C</h3>
-                        <p>Everything You Need. To Start Selling Online Beautifully</p>
+                        <h2>ReysonVial</h2>
+                        <h3>R</h3>
+                        <p>Todo lo que tu necesitas. Para la reparacion de tu auto</p>
                     </div>
-                    <div class="get-start-area">
-                        <!-- Form Start -->
-                        <form action="#" method="post" class="form-inline">
-                            <input type="email" class="form-control email" placeholder="name@company.com">
-                            <input type="submit" class="submit" value="Get Started">
-                        </form>
-                        <!-- Form End -->
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -267,8 +260,8 @@
 
     <!-- ***** Cool Facts Area Start ***** -->
     <section class="cool_facts_area clearfix">
-        <div class="container">
-            <div class="row">
+        <div class="container" >
+            <div class="row" >
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
