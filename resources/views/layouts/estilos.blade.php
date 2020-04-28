@@ -18,9 +18,11 @@
     <link rel="stylesheet" href="css/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/css/themify-icons.css">
     <link rel="stylesheet" href="css/css/nice-select.css">
+
     <link rel="stylesheet" href="css/css/flaticon.css">
     <link rel="stylesheet" href="css/css/gijgo.css">
     <link rel="stylesheet" href="css/css/animate.min.css">
+
     <link rel="stylesheet" href="css/css/slick.css">
     <link rel="stylesheet" href="css/css/slicknav.css">
     <link rel="stylesheet" href="css/css/style.css">
