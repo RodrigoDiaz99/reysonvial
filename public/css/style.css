@@ -424,7 +424,7 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(img/bg-img/welcome-bg.png);
+    background-image: url(https://res.cloudinary.com/hof8uut6x/image/upload/v1588115246/welcome-bg_q5tlpi.png);
     height: 900px;
     position: relative;
     z-index: 1;
