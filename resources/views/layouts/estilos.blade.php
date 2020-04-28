@@ -18,7 +18,7 @@
     <link href="style.css" rel="stylesheet">
 
     <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -799,19 +799,19 @@
     <!-- ***** Footer Area Start ***** -->
 
     <!-- Jquery-2.2.4 JS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="/js/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="/js/popper.min.js"></script>
     <!-- Bootstrap-4 Beta JS -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <!-- All Plugins JS -->
-    <script src="js/plugins.js"></script>
+    <script src="/js/plugins.js"></script>
     <!-- Slick Slider Js-->
-    <script src="js/slick.min.js"></script>
+    <script src="/js/slick.min.js"></script>
     <!-- Footer Reveal JS -->
-    <script src="js/footer-reveal.min.js"></script>
+    <script src="/js/footer-reveal.min.js"></script>
     <!-- Active JS -->
-    <script src="js/active.js"></script>
+    <script src="/js/active.js"></script>
 </body>
 
 </html>
