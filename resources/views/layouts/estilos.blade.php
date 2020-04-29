@@ -569,17 +569,17 @@
         <div class="footer-menu">
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Acerca</a></li>
+                    <li><a href="#">Terminos &amp; Condiciones</a></li>
+                    <li><a href="#">Politicas de privacidad</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
         </div>
         <!-- Foooter Text-->
         <div class="copyright-text">
             <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            <p>Copyright ©2020 Rv. Designed by <a href="https://www.reysonvial.xyz/" target="_blank">ReysonVial</a></p>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->
