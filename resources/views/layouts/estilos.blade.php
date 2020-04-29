@@ -48,8 +48,8 @@
                                     <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
 
 
-                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                                 </ul>
                                 <div class="sing-up-button d-lg-none">
                                     <a href="#">Sign Up Free</a>
@@ -79,7 +79,7 @@
                         <h3>R</h3>
                         <p>Todo lo que tu necesitas. Para la reparacion de tu auto</p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                 <div class="col-12">
                     <!-- Section Heading Area -->
                     <div class="section-heading text-center">
-                        <h2>Why Is It Special</h2>
+                        <h2>Por qué es tan especial</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
                         <div class="single-icon">
                             <i class="ti-mobile" aria-hidden="true"></i>
                         </div>
-                        <h4>Easy to use</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <h4>De uso facil</h4>
+                        <p>Creamos una herramienta de facil uso donde podras solicitar servicios a mecanicos</p>
                     </div>
                 </div>
                 <!-- Single Special Area -->
@@ -120,7 +120,7 @@
                         <div class="single-icon">
                             <i class="ti-ruler-pencil" aria-hidden="true"></i>
                         </div>
-                        <h4>Powerful Design</h4>
+                        <h4>Diseño Potente</h4>
                         <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
                     </div>
                 </div>
