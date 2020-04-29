@@ -91,7 +91,7 @@
     <!-- ***** Wellcome Area End ***** -->
 
     <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white section_padding_100" id="about">
+    <section class="special-area bg-white section_padding_100" id="about" ali>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -111,7 +111,7 @@
                             <i class="ti-mobile" aria-hidden="true"></i>
                         </div>
                         <h4>De uso facil</h4>
-                        <p>Creamos una herramienta de facil uso donde podras solicitar servicios a mecanicos</p>
+                        <p>Creamos una herramienta de facil uso donde podras solicitar servicios a mecanicos.</p>
                     </div>
                 </div>
                 <!-- Single Special Area -->
@@ -121,7 +121,7 @@
                             <i class="ti-ruler-pencil" aria-hidden="true"></i>
                         </div>
                         <h4>Diseño Potente</h4>
-                        <p>Creamos un diseño para que tú te sientas comodo al usar la aplicacion</p>
+                        <p>Creamos un diseño para que tú te sientas comodo al usar esta aplicacion</p>
                     </div>
                 </div>
                 <!-- Single Special Area
@@ -147,23 +147,23 @@
                     </div>
                     <div class="col-lg-6 col-xl-5 ml-xl-auto">
                         <div class="special_description_content">
-                            <h2>Our Best Propositions for You!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h2>Nuestra mejor propuesta para ti!</h2>
+                            <p>Una aplicacion donde puedas solicitar el apoyo de un mecanico cuando lo necesites.</p>
                             <div class="app-download-area">
                                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                                     <!-- Google Store Btn -->
                                     <a href="#">
                                         <i class="fa fa-android"></i>
-                                        <p class="mb-0"><span>available on</span> Google Store</p>
+                                        <p class="mb-0"><span>Disponible en</span> Google Play</p>
                                     </a>
                                 </div>
-                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
-                                    <!-- Apple Store Btn -->
+                                 <!--<div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                     Apple Store Btn
                                     <a href="#">
                                         <i class="fa fa-apple"></i>
                                         <p class="mb-0"><span>available on</span> Apple Store</p>
                                     </a>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -180,54 +180,54 @@
                 <div class="col-12">
                     <!-- Heading Text -->
                     <div class="section-heading text-center">
-                        <h2>Awesome Features</h2>
+                        <h2>Servicios impresionantes</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <!-- Single Feature Start -->
+
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
                         <i class="ti-user" aria-hidden="true"></i>
-                        <h5>Awesome Experience</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h5>Servicio Unico</h5>
+
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
                         <i class="ti-pulse" aria-hidden="true"></i>
-                        <h5>Fast and Simple</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h5>Auxilio Vial</h5>
+                       <!-- <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
                         <i class="ti-dashboard" aria-hidden="true"></i>
-                        <h5>Clean Code</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h5>Mantenimiento Preventivo</h5>
+
                     </div>
                 </div>
                 <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4" widht="center">
                     <div class="single-feature">
                         <i class="ti-palette" aria-hidden="true"></i>
-                        <h5>Perfect Design</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h5>Mantenimiento Correctivo</h5>
+
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
                         <i class="ti-crown" aria-hidden="true"></i>
-                        <h5>Best Industry Leader</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h5>Estetica automotriz</h5>
+
                     </div>
                 </div>
-                <!-- Single Feature Start -->
+                <!-- Single Feature Start
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
                         <i class="ti-headphone" aria-hidden="true"></i>
@@ -235,7 +235,7 @@
                         <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
         </div>
     </section>
@@ -266,11 +266,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
                         <div class="counter-area">
-                            <h3><span class="counter">90</span></h3>
+                            <h3><span class="counter">0</span></h3>
                         </div>
                         <div class="cool-facts-content">
                             <i class="ion-arrow-down-a"></i>
-                            <p>APP <br> DOWNLOADS</p>
+                            <p> <br> DESCARGAS</p>
                         </div>
                     </div>
                 </div>
@@ -278,11 +278,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
                         <div class="counter-area">
-                            <h3><span class="counter">120</span></h3>
+                            <h3><span class="counter">0</span></h3>
                         </div>
                         <div class="cool-facts-content">
                             <i class="ion-happy-outline"></i>
-                            <p>Happy <br> Clients</p>
+                            <p>Clientes <br> Felices</p>
                         </div>
                     </div>
                 </div>
@@ -290,11 +290,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
                         <div class="counter-area">
-                            <h3><span class="counter">40</span></h3>
+                            <h3><span class="counter">0</span></h3>
                         </div>
                         <div class="cool-facts-content">
                             <i class="ion-person"></i>
-                            <p>ACTIVE <br>ACCOUNTS</p>
+                            <p>Cuentas <br>Activas</p>
                         </div>
                     </div>
                 </div>
@@ -302,11 +302,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
                         <div class="counter-area">
-                            <h3><span class="counter">10</span></h3>
+                            <h3><span class="counter"></span></h3>
                         </div>
                         <div class="cool-facts-content">
                             <i class="ion-ios-star-outline"></i>
-                            <p>TOTAL <br>APP RATES</p>
+                            <p>Evalauciones <br>Totales</p>
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
                     <div class="section-heading">
-                        <h2>App Screenshots</h2>
+                        <h2>Screenshots de la aplicacion</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
@@ -384,7 +384,7 @@
                 <div class="col-12 text-center">
                     <!-- Heading Text  -->
                     <div class="section-heading">
-                        <h2>Our Team</h2>
+                        <h2>Nuestro equipo</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
@@ -404,8 +404,8 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Jackson Nash</h4>
-                            <p>Tax Advice</p>
+                            <h4>Rodrigo Diaz</h4>
+                            <p>Produccion</p>
                         </div>
                     </div>
                 </div>
@@ -423,8 +423,8 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Alex Manning</h4>
-                            <p>CEO-Founder</p>
+                            <h4>Guillermo Castillo</h4>
+                            <p>Finanzas</p>
                         </div>
                     </div>
                 </div>
@@ -442,8 +442,8 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Ollie Schneider</h4>
-                            <p>Business Planner</p>
+                            <h4>Carlos Bojorgez</h4>
+                            <p>Recursos Humanos</p>
                         </div>
                     </div>
                 </div>
@@ -461,8 +461,27 @@
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Roger West</h4>
-                            <p>Financer</p>
+                            <h4>Juan Sonda</h4>
+                            <p>Mercadotecnia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-1.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Yehiser Salazar</h4>
+                            <p>Administracion</p>
                         </div>
                     </div>
                 </div>
@@ -478,54 +497,54 @@
                 <div class="col-md-6">
                     <!-- Heading Text  -->
                     <div class="section-heading">
-                        <h2>Get in touch with us!</h2>
+                        <h2>Contactanos!</h2>
                         <div class="line-shape"></div>
                     </div>
                     <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                        <p>Para cualquier aclaracion no dude en llamarnos</p>
                     </div>
                     <div class="address-text">
-                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
+                        <p><span>Address:</span> Por definir</p>
                     </div>
                     <div class="phone-text">
-                        <p><span>Phone:</span> +11-225-888-888-66</p>
+                        <p><span>Telefono:</span> Por definir</p>
                     </div>
                     <div class="email-text">
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
+                        <p><span>Email:</span> Por definir</p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
+                <!--<div class="col-md-6">
+                     Form Start
                     <div class="contact_from">
                         <form action="#" method="post">
-                            <!-- Message Input Area Start -->
+                            Message Input Area Start
                             <div class="contact_input_area">
                                 <div class="row">
-                                    <!-- Single Input Area Start -->
+                                    Single Input Area Start
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
                                         </div>
                                     </div>
-                                    <!-- Single Input Area Start -->
+                                    Single Input Area Start
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
                                         </div>
                                     </div>
-                                    <!-- Single Input Area Start -->
+                                    Single Input Area Start
                                     <div class="col-12">
                                         <div class="form-group">
                                             <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
                                         </div>
                                     </div>
-                                    <!-- Single Input Area Start -->
+                                    Single Input Area Start
                                     <div class="col-12">
                                         <button type="submit" class="btn submit-btn">Send Now</button>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Message Input Area End -->
+                             Message Input Area End -->
                         </form>
                     </div>
                 </div>

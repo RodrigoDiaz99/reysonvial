@@ -473,26 +473,6 @@ p {
     padding: 0px 15px;
 }
 
-.form-control::-webkit-input-placeholder {
-    color: #cec1f4;
-    opacity: 1;
-}
-
-.form-control:-ms-input-placeholder {
-    color: #cec1f4;
-    opacity: 1;
-}
-
-.form-control::-ms-input-placeholder {
-    color: #cec1f4;
-    opacity: 1;
-}
-
-.form-control::placeholder {
-    color: #cec1f4;
-    opacity: 1;
-}
-
 .get-start-area .email:focus {
     border: none;
     outline-offset: transparent !important;
@@ -546,6 +526,7 @@ p {
 -------------------------- */
 
 .single-icon > i {
+
     font-size: 36px;
     color: #fb397d;
 }
@@ -566,6 +547,7 @@ p {
 }
 
 .single-special {
+
     border: 1px solid #eff2f6;
     padding: 40px;
     border-radius: 40px 40px 40px 0px;
@@ -576,6 +558,7 @@ p {
 }
 
 .special_description_content > h2 {
+    width: 80%;
     color: #5b32b4;
     font-size: 48px;
     margin-bottom: 30px;

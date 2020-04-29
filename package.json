@@ -26,4 +26,9 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.13.0"
     }
+
+    {
+        "nsp.output": "default"
+      }
 }
+
