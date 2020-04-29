@@ -393,7 +393,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-1.jpg" alt="">
+                            <img src="https://res.cloudinary.com/hof8uut6x/image/upload/v1588126303/users_vejeo0.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -412,7 +412,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-2.jpg" alt="">
+                            <img src="https://res.cloudinary.com/hof8uut6x/image/upload/v1588126303/users_vejeo0.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -431,7 +431,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-3.jpg" alt="">
+                            <img src="https://res.cloudinary.com/hof8uut6x/image/upload/v1588126303/users_vejeo0.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -450,7 +450,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-4.jpg" alt="">
+                            <img src="https://res.cloudinary.com/hof8uut6x/image/upload/v1588126303/users_vejeo0.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -469,7 +469,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-                            <img src="img/team-img/team-1.jpg" alt="">
+                            <img src="https://res.cloudinary.com/hof8uut6x/image/upload/v1588126303/users_vejeo0.png" alt="">
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -557,7 +557,7 @@
     <footer class="footer-social-icon text-center section_padding_70 clearfix">
         <!-- footer logo -->
         <div class="footer-text">
-            <h2>Ca.</h2>
+            <h2>Rv.</h2>
         </div>
         <!-- social icon-->
         <div class="footer-social-icon">
