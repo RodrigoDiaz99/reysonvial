@@ -51,19 +51,25 @@
                                     <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                                 </ul>
-                                <div class="sing-up-button d-lg-none">
-                                    <a href="#">Sign Up Free</a>
-                                </div>
+
                             </div>
                         </nav>
                     </div>
                 </div>
                 <!-- Signup btn -->
+
                 <div class="col-12 col-lg-2">
+                    @if (Route::has('login'))
                     <div class="sing-up-button d-none d-lg-block">
-                        <a href="#">Sign Up Free</a>
+                        @auth
+                        <a class="sing-up-button d-none d-lg-block" href="{{ url('/home') }}"></a>
+                        @else
+                        <li class="sing-up-button d-none d-lg-block"><a class="sing-up-button d-none d-lg-block" href="{{ route('login') }}">Acceso</a></li>
+                        @endauth
                     </div>
+                    @endif
                 </div>
+
             </div>
         </div>
     </header>
@@ -557,7 +563,7 @@
     <footer class="footer-social-icon text-center section_padding_70 clearfix">
         <!-- footer logo -->
         <div class="footer-text">
-            <h2>Rv.</h2>
+            <h2>RV.</h2>
         </div>
         <!-- social icon-->
         <div class="footer-social-icon">
