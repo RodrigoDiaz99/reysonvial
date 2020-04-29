@@ -121,10 +121,10 @@
                             <i class="ti-ruler-pencil" aria-hidden="true"></i>
                         </div>
                         <h4>Diseño Potente</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <p>Creamos un diseño para que tú te sientas comodo al usar la aplicacion</p>
                     </div>
                 </div>
-                <!-- Single Special Area -->
+                <!-- Single Special Area
                 <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
                         <div class="single-icon">
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <!-- Special Description Area -->
+        pecial Description Area -->
         <div class="special_description_area mt-150">
             <div class="container">
                 <div class="row">
