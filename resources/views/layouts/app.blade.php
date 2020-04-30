@@ -27,7 +27,7 @@
     <!-- Styles -->
     <link href="/css/app2.css" rel="stylesheet">
     <!-- Fonts -->
-
+<link rel="stylesheet" href="/css/all.css" integrity    ="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
