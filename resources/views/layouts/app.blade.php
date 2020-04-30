@@ -13,10 +13,9 @@
 
 
 <!-- Favicon -->
-<link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/favicon.ico">
 
-<!-- Core Stylesheet -->
-<link href="/css/style.css" rel="stylesheet">
+
     <!-- CSRF Token -->
 
     <title>ReysonVial App - Login</title>
@@ -26,7 +25,7 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Styles -->
-
+    <link href="/css/app2.css" rel="stylesheet">
 </head>
 
 <body>
