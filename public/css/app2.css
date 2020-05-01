@@ -1,15 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url('../fonts/Ubuntu-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: Ubuntu-Bold;
+    src: url('../fonts/Ubuntu-Bold.ttf');
+  }
 html,
 body {
-    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-image: url('https://res.cloudinary.com/hof8uut6x/image/upload/v1588115246/welcome-bg_q5tlpi.png');
     background-size: cover;
     background-repeat: no-repeat;
+
     height: 100%;
-    font-family: 'Numans', sans-serif;
+    font-family: 'Ubuntu-Bold', sans-serif;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-color: rgba(255, 255, 255, 0.6) ;
 }
 
 .navbar a {
@@ -19,18 +30,20 @@ body {
 
 .container {
     height: 100%;
-    align-content: center;
+
+    align-content: left;
 }
 
 .card {
     margin-top: auto;
     margin-bottom: auto;
+
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .input-group-prepend span {
-    background-color: #FFC312;
+    background-color: rgb(255, 255, 255);
     color: black;
     border: 0 !important;
 }
@@ -41,9 +54,36 @@ input:focus {
 }
 
 .login_btn {
-    color: black;
-    background-color: #FFC312;
-    width: 100px;
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    border-radius: 21px;
+
+    background: #d41872;
+    background: -webkit-linear-gradient(left, #a445b2, #d41872, #fa4299);
+    background: -o-linear-gradient(left, #a445b2, #d41872, #fa4299);
+    background: -moz-linear-gradient(left, #a445b2, #d41872, #fa4299);
+    background: linear-gradient(left, #a445b2, #d41872, #fa4299);
+    position: center;
+    z-index: 1;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .login_btn:hover {
@@ -52,7 +92,11 @@ input:focus {
 }
 
 .title {
+
     margin-top: 20px;
-    margin-left: 20px;
-    color: rgba(255, 255, 255, 0.8);
+    margin-left: 140px;
+
+    color: rgba(0, 0, 0, 0.8);
+
+
 }
