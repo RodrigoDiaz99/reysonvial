@@ -69,4 +69,10 @@
                 "searching": false,
                 "ordering": true,
                 "info": true,
-                "autoWidth": fals
+                "autoWidth": false,
+            });
+        });
+    </script>
+</body>
+
+</html>
