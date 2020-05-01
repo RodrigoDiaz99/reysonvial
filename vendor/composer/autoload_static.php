@@ -112,6 +112,10 @@ class ComposerStaticInit2f6fc821c59ef6f55451baa5de488600
         array (
             'Illuminate\\' => 11,
         ),
+        'H' => 
+        array (
+            'Helldar\\LaravelApp\\' => 19,
+        ),
         'F' => 
         array (
             'Fideloper\\Proxy\\' => 16,
@@ -330,6 +334,10 @@ class ComposerStaticInit2f6fc821c59ef6f55451baa5de488600
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
         ),
+        'Helldar\\LaravelApp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/andrey-helldar/laravel-app/src',
+        ),
         'Fideloper\\Proxy\\' => 
         array (
             0 => __DIR__ . '/..' . '/fideloper/proxy/src',
@@ -419,6 +427,7 @@ class ComposerStaticInit2f6fc821c59ef6f55451baa5de488600
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -1248,6 +1257,8 @@ class ComposerStaticInit2f6fc821c59ef6f55451baa5de488600
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Helldar\\LaravelApp\\Commands\\AppName' => __DIR__ . '/..' . '/andrey-helldar/laravel-app/src/Commands/AppName.php',
+        'Helldar\\LaravelApp\\ServiceProvider' => __DIR__ . '/..' . '/andrey-helldar/laravel-app/src/ServiceProvider.php',
         'Highlight\\Autoloader' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/Autoloader.php',
         'Highlight\\HighlightResult' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/HighlightResult.php',
         'Highlight\\Highlighter' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/Highlighter.php',

@@ -52,6 +52,7 @@ return array(
     'JakubOnderka\\PhpConsoleHighlighter\\' => array($vendorDir . '/jakub-onderka/php-console-highlighter/src'),
     'JakubOnderka\\PhpConsoleColor\\' => array($vendorDir . '/jakub-onderka/php-console-color/src'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),
+    'Helldar\\LaravelApp\\' => array($vendorDir . '/andrey-helldar/laravel-app/src'),
     'Fideloper\\Proxy\\' => array($vendorDir . '/fideloper/proxy/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
     'Facade\\Ignition\\' => array($vendorDir . '/facade/ignition/src'),

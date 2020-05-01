@@ -1,5 +1,61 @@
 [
     {
+        "name": "andrey-helldar/laravel-app",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/andrey-helldar/laravel-app.git",
+            "reference": "8b896a9e45a01cdfcde5f8f7ecfa4c030774b2a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/andrey-helldar/laravel-app/zipball/8b896a9e45a01cdfcde5f8f7ecfa4c030774b2a8",
+            "reference": "8b896a9e45a01cdfcde5f8f7ecfa4c030774b2a8",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/console": "^6.0|^7.0",
+            "illuminate/filesystem": "^6.0|^7.0",
+            "illuminate/support": "^6.0|^7.0",
+            "php": "^7.2"
+        },
+        "suggest": {
+            "laravel/helpers": "Provides backwards compatibility for helpers in the latest Laravel release."
+        },
+        "time": "2019-09-13T09:26:48+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Helldar\\LaravelApp\\ServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Helldar\\LaravelApp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Andrey Helldar",
+                "email": "helldar@ai-rus.com"
+            }
+        ],
+        "description": "Provides backwards compatibility for app:name command in the latest Laravel release.",
+        "keywords": [
+            "console",
+            "helpers",
+            "laravel"
+        ]
+    },
+    {
         "name": "dnoegel/php-xdg-base-dir",
         "version": "v0.1.1",
         "version_normalized": "0.1.1.0",
@@ -1465,22 +1521,23 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.32.2",
-        "version_normalized": "2.32.2.0",
+        "version": "2.33.0",
+        "version_normalized": "2.33.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "f10e22cf546704fab1db4ad4b9dedbc5c797a0dc"
+            "reference": "4d93cb95a80d9ffbff4018fe58ae3b7dd7f4b99b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f10e22cf546704fab1db4ad4b9dedbc5c797a0dc",
-            "reference": "f10e22cf546704fab1db4ad4b9dedbc5c797a0dc",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4d93cb95a80d9ffbff4018fe58ae3b7dd7f4b99b",
+            "reference": "4d93cb95a80d9ffbff4018fe58ae3b7dd7f4b99b",
             "shasum": ""
         },
         "require": {
             "ext-json": "*",
             "php": "^7.1.8 || ^8.0",
+            "symfony/polyfill-mbstring": "^1.0",
             "symfony/translation": "^3.4 || ^4.0 || ^5.0"
         },
         "require-dev": {
@@ -1492,7 +1549,7 @@
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2020-03-31T13:43:19+00:00",
+        "time": "2020-04-20T15:05:43+00:00",
         "bin": [
             "bin/carbon"
         ],
