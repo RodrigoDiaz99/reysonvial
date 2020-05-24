@@ -12,7 +12,7 @@
     <title>ReysonVial App</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/rv.ico">
 
     <!-- Core Stylesheet -->
     <link href="/css/style.css" rel="stylesheet">
